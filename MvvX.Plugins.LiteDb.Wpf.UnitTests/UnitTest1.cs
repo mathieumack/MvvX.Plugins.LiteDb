@@ -13,6 +13,8 @@ namespace MvvX.Plugins.LiteDb.Wpf.UnitTests
         {
             using (var db = new PlatformLiteDatabase(@"MyData.db"))
             {
+                db.DropCollection("customers");
+
                 // Get customer collection
                 var customers = db.GetCollection<Customer>("customers");
 
@@ -29,15 +31,15 @@ namespace MvvX.Plugins.LiteDb.Wpf.UnitTests
 
                 Assert.IsTrue(customers.Count() == 1);
                 // Update a document inside a collection
-                customer.Name = "Joana Doe";
+                //customer.Name = "Joana Doe";
 
-                customers.Update(customer);
+                //customers.Update(customer);
 
-                // Index document using a document property
-                customers.EnsureIndex(x => x.Name);
+                //// Index document using a document property
+                //customers.EnsureIndex(x => x.Name);
 
-                // Use Linq to query documents
-                var results = customers.Find(x => x.Name.StartsWith("Jo"));
+                //// Use Linq to query documents
+                //var results = customers.Find(x => x.Name.StartsWith("Jo"));
             }
         }
     }

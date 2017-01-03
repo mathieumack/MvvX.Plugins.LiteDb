@@ -17,11 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7ED1E4DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Plugins.LiteDb.Wpf.UnitTests", "MvvX.Plugins.LiteDb.Wpf.UnitTests\MvvX.Plugins.LiteDb.Wpf.UnitTests.csproj", "{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvX.Plugins.LiteDb.UniTests.Shared", "MvvX.Plugins.LiteDb.UniTests.Shared\MvvX.Plugins.LiteDb.UniTests.Shared.shproj", "{5A397F80-FF2B-481F-8265-7BB50286D5CB}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		MvvX.Plugins.LiteDb.UniTests.Shared\MvvX.Plugins.LiteDb.UniTests.Shared.projitems*{5a397f80-ff2b-481f-8265-7bb50286d5cb}*SharedItemsImports = 13
 		MvvX.Plugins.LiteDb.Shared\MvvX.Plugins.LiteDb.Shared.projitems*{83c16441-9d20-4594-9bf0-9e7adb356ccb}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +47,5 @@ Global
 		{4350915E-BC71-4489-928A-CF8EB1146610} = {C9487020-EC29-4AA0-8C8C-DDD0B7CFAB87}
 		{83C16441-9D20-4594-9BF0-9E7ADB356CCB} = {C9487020-EC29-4AA0-8C8C-DDD0B7CFAB87}
 		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3} = {7ED1E4DA-438D-4EB6-93B1-D19450B18243}
-		{5A397F80-FF2B-481F-8265-7BB50286D5CB} = {7ED1E4DA-438D-4EB6-93B1-D19450B18243}
 	EndGlobalSection
 EndGlobal

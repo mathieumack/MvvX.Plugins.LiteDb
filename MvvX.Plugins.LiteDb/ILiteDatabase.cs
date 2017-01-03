@@ -16,7 +16,7 @@ namespace MvvX.Plugins.LiteDb
         //void Dispose();
         bool DropCollection(string name);
         //ILiteCollection<BsonDocument> GetCollection(string name);
-        ILiteCollection<T, Y> GetCollection<T, Y>(string name) where T : new() where Y : IBsonValue;
+        ILiteCollection<T> GetCollection<T>(string name) where T : new();
         IEnumerable<string> GetCollectionNames();
         bool RenameCollection(string oldName, string newName);
         //public BsonValue Run(string command);

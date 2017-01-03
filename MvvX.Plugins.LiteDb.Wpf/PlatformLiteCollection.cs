@@ -145,9 +145,9 @@ namespace MvvX.Plugins.LiteDb.Wpf
             return collection.Update(documents);
         }
 
-        public bool Update<Y>(Y id, T document) where Y : IBsonValue
-        {
-            return collection.Update(id, document);
-        }
+        //public bool Update(IBsonValue id, T document)
+        //{
+        //    return collection.Update(id, document);
+        //}
     }
 }

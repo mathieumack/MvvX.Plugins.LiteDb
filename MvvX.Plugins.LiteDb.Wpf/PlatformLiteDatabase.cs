@@ -22,7 +22,7 @@ namespace MvvX.Plugins.LiteDb.Wpf
             }
         }
 
-        public ILiteCollection<T> GetCollection<T>(string name) where T : new()
+        public new ILiteCollection<T> GetCollection<T>(string name) where T : new()
         {
             var result = base.GetCollection<T>(name);
             return new PlatformLiteCollection<T>(result);

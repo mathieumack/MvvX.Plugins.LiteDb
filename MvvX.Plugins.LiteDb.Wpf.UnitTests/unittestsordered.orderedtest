@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="unittestsordered" storage="f:\sources\mvvx.plugins.litedb\mvvx.plugins.litedb.wpf.unittests\unittestsordered.orderedtest" id="4242c5c6-cd1d-4791-9691-1f3956acbeeb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="9c2f6a69-8975-15f0-19d9-c54a712d142a" name="Insert" storage="bin\debug\mvvx.plugins.litedb.wpf.unittests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

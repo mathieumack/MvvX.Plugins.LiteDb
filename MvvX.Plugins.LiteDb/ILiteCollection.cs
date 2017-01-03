@@ -44,6 +44,6 @@ namespace MvvX.Plugins.LiteDb
         IBsonValue Min<K>(Expression<Func<T, K>> property);
         int Update(IEnumerable<T> documents);
         bool Update(T document);
-        bool Update<Y>(Y id, T document) where Y : IBsonValue;
+        //bool Update(IBsonValue id, T document);
     }
 }
