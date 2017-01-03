@@ -1,18 +1,18 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MvvX.Plugins.LiteDb.Wpf;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MvvX.Plugins.LiteDb.UniTests.Shared.Entities;
 
 namespace MvvX.Plugins.LiteDb.Wpf.UnitTests
 {
     [TestClass]
-    public class UnitTest1
+    public class PlatformLiteDatabaseTests
     {
         [TestMethod]
         public void Insert()
         {
-            using (var db = new PlatformLiteDatabase(@"MyData.db"))
+            using (var db = new PlatformLiteDatabase())
             {
+                db.Construct(@"MyData.db");
+
                 db.DropCollection("customers");
 
                 // Get customer collection

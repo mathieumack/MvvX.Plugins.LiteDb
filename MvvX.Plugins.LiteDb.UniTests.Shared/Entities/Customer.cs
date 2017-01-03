@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MvvX.Plugins.LiteDb.UniTests.Shared.Entities
+﻿namespace MvvX.Plugins.LiteDb.UniTests.Shared.Entities
 {
     public class Customer
     {

@@ -57,7 +57,7 @@
     <Compile Include="..\MvvX.Plugins.LiteDb.UniTests.Shared\Entities\Customer.cs">
       <Link>Entities\Customer.cs</Link>
     </Compile>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="PlatformLiteDatabaseTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="unittestsordered.orderedtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

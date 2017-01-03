@@ -32,13 +32,17 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\MvvX.Plugins.LiteDb.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IBsonValue.cs" />
+    <Compile Include="ILiteTransaction.cs" />
     <Compile Include="IQuery.cs" />
     <Compile Include="ILiteCollection.cs" />
     <Compile Include="ILiteDatabase.cs" />
+    <Compile Include="PluginLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">

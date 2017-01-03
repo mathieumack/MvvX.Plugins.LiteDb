@@ -4,6 +4,10 @@ namespace MvvX.Plugins.LiteDb
 {
     public interface ILiteDatabase
     {
+        /// <summary>
+        /// Create a new connection to a database
+        /// </summary>
+        void Construct(string connectionString);
         int PAGE_SIZE { get; }
         
         ushort DbVersion { get; set; }
@@ -11,9 +15,8 @@ namespace MvvX.Plugins.LiteDb
         //public Logger Log { get; }
         //public BsonMapper Mapper { get; }
 
-        //LiteTransaction BeginTrans();
+        ILiteTransaction BeginTrans();
         bool CollectionExists(string name);
-        //void Dispose();
         bool DropCollection(string name);
         //ILiteCollection<BsonDocument> GetCollection(string name);
         ILiteCollection<T> GetCollection<T>(string name) where T : new();

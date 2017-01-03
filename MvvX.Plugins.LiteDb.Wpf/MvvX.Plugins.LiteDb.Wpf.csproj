@@ -55,6 +55,8 @@
     <Compile Include="PlatformBsonValue.cs" />
     <Compile Include="PlatformLiteCollection.cs" />
     <Compile Include="PlatformLiteDatabase.cs" />
+    <Compile Include="PlatformLiteTransaction.cs" />
+    <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

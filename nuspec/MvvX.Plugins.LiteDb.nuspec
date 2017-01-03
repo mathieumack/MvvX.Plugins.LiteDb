@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MvvX.Plugins.LiteDb</id>
+        <version>{BuildNumberVersion}</version>
+        <title>NoSqlRepository</title>
+        <authors>MACK Mathieu,alexandrebalan</authors>
+        <owners>MACK Mathieu,alexandrebalan</owners>
+        <licenseUrl>https://github.com/mathieumack/MvvX.Plugins.LiteDb</licenseUrl>
+        <projectUrl>https://github.com/mathieumack/MvvX.Plugins.LiteDb</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package contains the core content of NoSqlRepository</description>
+        <tags>nosql repository</tags>
+        <dependencies>
+          <group>
+        </group>
+        </dependencies>  
+    </metadata>
+    <files>     
+        <!-- ALL -->
+        <file src="..\MvvX.Plugins.LiteDb\bin\Release\MvvX.Plugins.LiteDb.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.LiteDb\bin\Release\MvvX.Plugins.LiteDb.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+    
+        <!-- Wpf -->
+        <file src="..\MvvX.Plugins.LiteDb\bin\Release\MvvX.Plugins.LiteDb.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.LiteDb\bin\Release\MvvX.Plugins.LiteDb.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.LiteDb.Wpf\bin\Release\MvvX.Plugins.LiteDb.Wpf.dll" target="lib\net45" />
+        <file src="BootstrapContent\LiteDbPluginBootstrap.cs.pp" target="content\net45\Bootstrap\LiteDbPluginBootstrap.cs.pp" />
+    </files>
+</package>
