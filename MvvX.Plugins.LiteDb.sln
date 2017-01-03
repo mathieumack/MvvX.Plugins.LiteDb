@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{F63674CF-681C-412C-BCC7-C027F548AA10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{C9487020-EC29-4AA0-8C8C-DDD0B7CFAB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Plugins.LiteDb", "MvvX.Plugins.LiteDb\MvvX.Plugins.LiteDb.csproj", "{514BCD89-979F-4653-8CE7-BD79A1207F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Plugins.LiteDb.Wpf", "MvvX.Plugins.LiteDb.Wpf\MvvX.Plugins.LiteDb.Wpf.csproj", "{4350915E-BC71-4489-928A-CF8EB1146610}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvX.Plugins.LiteDb.Shared", "MvvX.Plugins.LiteDb.Shared\MvvX.Plugins.LiteDb.Shared.shproj", "{83C16441-9D20-4594-9BF0-9E7ADB356CCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7ED1E4DA-438D-4EB6-93B1-D19450B18243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvX.Plugins.LiteDb.Wpf.UnitTests", "MvvX.Plugins.LiteDb.Wpf.UnitTests\MvvX.Plugins.LiteDb.Wpf.UnitTests.csproj", "{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvX.Plugins.LiteDb.UniTests.Shared", "MvvX.Plugins.LiteDb.UniTests.Shared\MvvX.Plugins.LiteDb.UniTests.Shared.shproj", "{5A397F80-FF2B-481F-8265-7BB50286D5CB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MvvX.Plugins.LiteDb.UniTests.Shared\MvvX.Plugins.LiteDb.UniTests.Shared.projitems*{5a397f80-ff2b-481f-8265-7bb50286d5cb}*SharedItemsImports = 13
+		MvvX.Plugins.LiteDb.Shared\MvvX.Plugins.LiteDb.Shared.projitems*{83c16441-9d20-4594-9bf0-9e7adb356ccb}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{514BCD89-979F-4653-8CE7-BD79A1207F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514BCD89-979F-4653-8CE7-BD79A1207F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514BCD89-979F-4653-8CE7-BD79A1207F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514BCD89-979F-4653-8CE7-BD79A1207F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4350915E-BC71-4489-928A-CF8EB1146610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4350915E-BC71-4489-928A-CF8EB1146610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4350915E-BC71-4489-928A-CF8EB1146610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4350915E-BC71-4489-928A-CF8EB1146610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{514BCD89-979F-4653-8CE7-BD79A1207F18} = {F63674CF-681C-412C-BCC7-C027F548AA10}
+		{4350915E-BC71-4489-928A-CF8EB1146610} = {C9487020-EC29-4AA0-8C8C-DDD0B7CFAB87}
+		{83C16441-9D20-4594-9BF0-9E7ADB356CCB} = {C9487020-EC29-4AA0-8C8C-DDD0B7CFAB87}
+		{38E45C9F-0A4A-4D38-8009-D8B2F80551F3} = {7ED1E4DA-438D-4EB6-93B1-D19450B18243}
+		{5A397F80-FF2B-481F-8265-7BB50286D5CB} = {7ED1E4DA-438D-4EB6-93B1-D19450B18243}
+	EndGlobalSection
+EndGlobal
